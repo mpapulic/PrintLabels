@@ -14,6 +14,7 @@ namespace PrintLabels
     {
         static void Main(string[] args)
          {
+            WriteLine("OVO JE LOKALNI REPOSITORY MILAN 02");
             DateTime startTimeObrade = DateTime.Now;
             try
             {
