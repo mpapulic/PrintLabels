@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using PrintLabels.Utils;
 using static System.Console;
 using Common;
+using System.IO;
 
 namespace PrintLabels
 {
@@ -20,6 +21,16 @@ namespace PrintLabels
 
                 LabelHandler mojDoc = new LabelHandler();
                 string filePrefix = @"c:\temp\Nalepnice\";
+
+                if (!Directory.Exists(filePrefix))
+                {
+                    Directory.CreateDirectory(filePrefix);
+                    //Console.WriteLine("That path exists already.");
+                    //return;
+                }
+
+
+
                 string excelFile = @"c:\temp\SdPress\2017-03-15_All_Tamara_Coupons.xlsx";
 
                 int numberPagePerPDF = 10;
