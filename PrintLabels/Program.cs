@@ -20,6 +20,9 @@ namespace PrintLabels
 
                 LabelHandler mojDoc = new LabelHandler();
                 string filePrefix = @"c:\temp\Nalepnice\";
+
+
+
                 string excelFile = @"c:\temp\SdPress\2017-03-15_All_Tamara_Coupons.xlsx";
 
                 int numberPagePerPDF = 10;
@@ -38,7 +41,6 @@ namespace PrintLabels
             WriteLine($" Ukupno trajanje obrade: {stopTimeObrade - startTimeObrade} sec. ");
             WriteLine("END END END !!!");
             WriteLine("RALE 03 BRANCH END END END !!!");
-
             WriteLine("press any key ... ");
             ReadLine();
         }
