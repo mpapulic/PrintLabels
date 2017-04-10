@@ -19,7 +19,7 @@ namespace PrintLabels.BLL
                 _mLabelFormats.Add(new LabelFormat
                 {   Id = 1,
                     Name = "A4",
-                    Description = "A4 Sheet of 210mm X 297mm address labels",
+                    Description = "Rale 02 A4 Sheet of 210mm X 297mm address labels",
                     PageWidth = 210,
                     PageHeight = 297,
                     TopMargin = 0.0,
@@ -37,7 +37,7 @@ namespace PrintLabels.BLL
                 {
                     Id = 2,
                     Name = "L7169",
-                    Description = "A4 Sheet of 99.1 x 139mm BlockOut (tm) address labels",
+                    Description = "Rale 02 A4 Sheet of 99.1 x 139mm BlockOut (tm) address labels",
                     PageWidth = 210,
                     PageHeight = 297,
                     TopMargin = 9.5,
