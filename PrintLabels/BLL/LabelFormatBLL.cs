@@ -18,8 +18,8 @@ namespace PrintLabels.BLL
                 _mLabelFormats = new List<LabelFormat>();
                 _mLabelFormats.Add(new LabelFormat
                 {   Id = 1,
-                    Name = "L7163",
-                    Description = "A4 Sheet of 99.1 x 38.1mm address labels",
+                    Name = "A4",
+                    Description = "A4 Sheet of 210mm X 297mm address labels",
                     PageWidth = 210,
                     PageHeight = 297,
                     TopMargin = 0.0,
@@ -30,8 +30,8 @@ namespace PrintLabels.BLL
                     HorizontalPitch = 70.0,
                     ColumnCount = 3,
                     RowCount = 10,
-                    LabelPaddingTop = 1.0,
-                    LabelPaddingLeft = 3.0
+                    LabelPaddingTop = 7.0,
+                    LabelPaddingLeft = 7.0
                 });
                 _mLabelFormats.Add(new LabelFormat
                 {
