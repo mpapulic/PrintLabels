@@ -25,8 +25,6 @@ namespace PrintLabels
                 if (!Directory.Exists(filePrefix))
                 {
                     Directory.CreateDirectory(filePrefix);
-                    //Console.WriteLine("That path exists already.");
-                    //return;
                 }
 
 
